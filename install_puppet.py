@@ -11,7 +11,7 @@ import argparse
 import re
 
 parser = argparse.ArgumentParser(description='Installs and configures Puppet on OS X')
-parser.add_argument('--server', help='The URL of the Puppet Server.)
+parser.add_argument('--server', help='The URL of the Puppet Server.')
 parser.add_argument('--certname', help='The certname of the client.')
 parser.add_argument('--serial', action='store_true', help='Use the Mac\'s serial number as the certname')
 parser.add_argument('--clean_serial', action='store_true', help='Use the Mac\'s serial number as the certname, with aaa prepended to it if the first character is a digit.')
